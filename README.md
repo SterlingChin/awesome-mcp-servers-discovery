@@ -33,7 +33,7 @@ Browse the complete catalog of MCP servers with optional filtering.
 
 1. Clone this repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/SterlingChin/awesome-mcp-servers-discovery.git
    cd open-source-mcp-server
    ```
 

@@ -1,0 +1,33 @@
+{
+    "name": "awesome-mcp-servers-discovery",
+    "version": "1.0.0",
+    "description": "MCP server for discovering and getting recommendations from the awesome-mcp-servers repository",
+    "type": "module",
+    "main": "build/index.js",
+    "bin": {
+      "awesome-mcp-servers": "./build/index.js"
+    },
+    "scripts": {
+      "build": "tsc && chmod +x build/index.js",
+      "start": "node build/index.js",
+      "dev": "tsc && node build/index.js"
+    },
+    "dependencies": {
+      "@modelcontextprotocol/sdk": "^1.0.0",
+      "zod": "^3.22.4"
+    },
+    "devDependencies": {
+      "@types/node": "^20.0.0",
+      "typescript": "^5.0.0"
+    },
+    "keywords": [
+      "mcp",
+      "model-context-protocol",
+      "awesome-mcp-servers",
+      "server-discovery",
+      "recommendations",
+      "search"
+    ],
+    "author": "Your Name",
+    "license": "MIT"
+  }
